@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body,
+        ol,
+        ul,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        th,
+        td,
+        dl,
+        dd,
+        form,
+        fieldset,
+        legend,
+        input,
+        textarea,
+        select {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            font: 14px"宋体", "Arial Narrow", HELVETICA;
+            background: #fff;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        a {
+            color: #2d374b;
+            text-decoration: none
+        }
+
+        a:hover {
+            color: #cd0200;
+            text-decoration: underline
+        }
+
+        em {
+            font-style: normal
+        }
+
+        li {
+            list-style: none
+        }
+
+        img {
+            border: 0;
+            vertical-align: middle
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+        .box{
+            width: 1080px;
+            margin: 0 auto;
+            background-color: #cccccc;
+        }
+        .nav{
+            width: 100%;
+            height: 100px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #000;
+        }
+        .nav li{
+            width: 100px;
+            height: 100%;
+            line-height: 100px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            float: left;
+        }
+
+        .active{
+            color: #fff;
+            background-color: paleturquoise;
+        }
+
+        .bigBox {
+            width: 100%;
+            height: 607px;
+        }
+
+        .bigBox ul li{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow:row wrap;
+               }
+
+        .bigBox ul li img{
+            width: 210px;
+            height: 110px;
+            margin:20px 20px 0 0;
+            border: 10px solid #cccccc;
+        }
+
+        .bigBox ul li img:hover{
+            border: 10px solid paleturquoise;
+        }
+
+        .min{
+            display:none;
+        }
+
+        .checked{
+            display:block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+                <div class="nav">
+                        <ul>
+                                <li class="active">电视剧</li>
+                                <li>电影</li>
+                                <li>音乐</li>
+                                <li>游戏</li>
+                                <li>娱乐</li>
+                                <li>境外</li>
+                                <li>美国大片</li>
+                                <li>动漫</li>
+                            </ul>
+                </div>
+        </div>
+        <div class="section">
+            <div class="bigBox">
+                <ul class="min checked">
+                        <h1 style="text-align: center ;color: #fff">电视剧</h1>
+                    <li>
+                       
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+                <ul class="min">
+                        <h1 style="text-align: center ;color: #fff">电影</h1>
+                    <li>
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+                <ul class="min">
+                        <h1 style="text-align: center ;color: #fff">音乐</h1>
+                    <li>
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+                <ul class="min">
+                        <h1 style="text-align: center ;color: #fff">游戏</h1>
+                    <li>
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+                <ul class="min">
+                        <h1 style="text-align: center ;color: #fff">娱乐</h1>
+                    <li>
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+                <ul class="min">
+                        <h1 style="text-align: center ;color: #fff">境外</h1>
+                    <li>
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+                <ul class="min">
+                        <h1 style="text-align: center ;color: #fff">美国大片</h1>
+                    <li>
+                        
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+                <ul class="min">
+                        <h1 style="text-align: center ;color: #fff">动漫</h1>
+                    <li>
+                            <img src="./img/01.jpg" alt="" >
+                            <img src="./img/02.jpg" alt="" >
+                            <img src="./img/03.jpg" alt="" >
+                            <img src="./img/04.jpg" alt="" >
+                            <img src="./img/05.jpg" alt="" >
+                            <img src="./img/06.jpg" alt="" >
+                            <img src="./img/07.jpg" alt="" >
+                            <img src="./img/08.jpg" alt="" >
+                            <img src="./img/09.jpg" alt="" >
+                            <img src="./img/10.jpg" alt="" >
+                            <img src="./img/11.jpg" alt="" >
+                            <img src="./img/12.jpg" alt="" >
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        // 入口函数
+    $(function(){
+        $(".nav li").mouseenter(function(){
+            $(this).addClass('active').siblings().removeClass('active')
+            console.log( $(this).index() );
+           var ids = $(this).index();
+           $('.section ul ').eq(ids).stop(true,false).show().siblings().hide();
+        })
+    })
+    </script>
+</body>
+
+</html>
